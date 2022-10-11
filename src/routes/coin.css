@@ -1,0 +1,308 @@
+.btne {
+    align-items: center;
+    background: transparent;
+    border: 0px;
+    /* border-radius: 8px; */
+    display: inline-flex;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    justify-content: center;
+    outline: 0px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    height: 32px;
+    /* border: 1px solid #6900ff; */
+    font-size: 15px;
+    border: 1px soli black;
+    /* border-right: 1px solid black; */
+    padding: 0px 16px;
+    line-height: 18px;
+}
+
+
+
+
+.btne:hover {
+    padding: 0px 14px;
+    white-space: nowrap !important;
+    margin-right: 4px !important;
+    background-color: rgb(240, 246, 255) !important;
+    color: rgb(56, 97, 251) !important;
+
+}
+
+ .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.container-coin {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1vh;
+    width: 100%;
+    align-items: stretch;
+
+}
+/* .container_ {
+    display: flex;
+    padding: 2vw 7vw;
+    flex-direction: column;
+} */
+h2 {
+    text-align: center;
+}
+.rank {
+    margin: .5 0;
+}
+
+.rank-btn {
+    background-color: none;
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info .coin-heading {
+    display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  justify-content: flex-start;
+}
+
+.info .coin-price {
+   
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+
+.info p {
+    font-size: 1.5rem;
+}
+
+.symbol {
+    padding-right: 1px;
+}
+
+table {
+    margin: .5rem 0;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #62688f52;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+}
+
+.stats .row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #808080;
+    margin: .6rem 0;
+    padding-bottom: .5rem;
+}
+
+.stats .row p:first-child {
+    color: #d3d3d3;
+}
+
+.about h3 {
+    margin: 1rem 0;
+}
+
+.content-name {
+    text-align: center;
+}
+
+.btn-coin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-coin h4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 45%;
+
+}
+
+.market-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+h6{
+    color: #fff;
+}
+.market-info > h6 {
+    padding-left: 20px;
+}
+
+.coin-heading img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.info-coin {
+    line-height: 2.2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
+.container {
+    height: 100%;
+}
+/* @media screen and (max-width: 700px) {
+    .coin-container .content {
+        max-width: 100%;
+        margin: .5rem;
+        padding: 0 .5rem;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    td,th {
+        padding: 3px;
+    }
+
+    .rank {
+        margin: .5rem;
+    }
+
+    .rank-btn {
+        margin: .5rem 0;
+    }
+} */
+
+.color {
+    color: #6900ff;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.green {
+    color: green;
+}
+
+.chartJs {
+    width: 60rem;
+    align-items: center;
+    display: flex;
+    
+}
+
+
+@media only screen and (max-width: 550px) {
+  
+    .container-coin {
+        margin: 0;
+    }
+
+.chartJs {
+    width: 30rem;
+  
+}
+* {
+    overflow-x: clip;
+  }
+   
+    h2 {
+     font-size: 1.1rem;
+    }
+  
+    .coin-heading img {
+      width: 2rem;
+      height: 3rem;
+  }
+  
+  .info {
+    display: flex;
+    align-items: flex-start;
+    width: 24rem;
+  }
+  .info p {
+    font-size: 0.9rem;
+  }
+ 
+  .info .coin-price {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 1rem 0 0;
+  }
+  h3 {
+    font-size: calc(1.1rem + .6vw)
+  }
+  .market-info h6 {
+    font-size: 0.9rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  .coin-price h3 {
+    font-size: 1.1rem;
+  }
+  .coin-price h4 {
+    font-size: 1.1rem;
+  }
+  .btn-coin h4 {
+    font-size: 1.1rem;
+  }
+
+  .btn-coin {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+
+  }
+
+  .info .coin-heading {
+    display: flex;
+    align-items: center;
+    /* margin: 1rem 0; */
+    flex-direction: column;
+    width: 47%;
+  }
+  .name-symbol {
+    display: flex;
+}
+
+
+.chartJs {
+    width: 40rem;
+}
+
+.content {
+
+    overflow: auto;
+}
+
+}

@@ -1,0 +1,430 @@
+*{
+  padding: 0;
+  margin: 0;
+/* overflow-x: hidden;   */
+}
+  html, body {
+    margin: 0px;
+    padding: 0px;
+} 
+tspan{
+  color: #fff;
+}
+p{
+  color: #fff;
+}
+h3,h4,h1,h2{
+  color: #Fff;
+}
+
+.text-link {
+  color: #fff;
+}
+button {
+  color: #fff;
+}
+span {
+  color: #fff;
+}
+li {
+  color: #fff;
+}
+body {
+ 
+  background-image: url('https://cdn.wallpapersafari.com/77/82/mcVzTL.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.container_ {
+    display: flex;
+    padding: 2vw 7vw;
+    flex-direction: column;
+}
+
+Link {
+  color: none;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.navbare {
+  display: flex;
+  flex-direction: column;
+}
+.navbare > ul {
+  display: flex;
+  width: 50vh;
+  list-style: none;
+  justify-content: center;
+  border-bottom: 1px solid #c4c7d3;;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+
+}
+input svg {
+  margin-top: 14px;
+  width: 3rem;
+  -ms-transform: translate(100%,-50%);
+  transform: translate(100%,-50%);
+  color: white;
+
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+
+  FONT-WEIGHT: 500;
+  font-family: inherit;
+}
+/* .container {
+  height: 100rem;
+  margin: 1vw auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} */
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: #c4c7d363; */
+  box-shadow: 0px 0px 12px #c4c7d3;
+  border-radius: 8px;
+  margin: 0rem 1rem;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+}
+.heading > p {
+  margin-bottom: 0;
+}
+.coin-row > p {
+  margin-bottom: 0;
+}
+.p-tag > p{
+  margin-bottom: 0;
+}
+.img-symbol > p{
+  margin-bottom: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #c4c7d3;;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #c4c7d363; */
+  box-shadow: 0px 0px 12px #c4c7d3;
+  border-radius: 8px;  
+  margin: 2rem 1rem;
+  padding: .7rem 1rem;
+  font-weight: 700;
+}
+
+.coin-row:hover{
+  transform: scale(1.03);
+  transition: .3 ease-in-out;
+  cursor: pointer;
+}
+
+.img-symbol {
+  display: flex;
+  align-items: center;
+}
+
+
+.img-symbol > img{
+  height: 40px;
+  margin-right: 8px;
+  width: auto;
+}
+
+
+.coin-name {
+  margin-left: -4rem;
+}
+
+
+.navbare {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.btne {
+  width: 7rem;
+  border-color: rgba(0, 0, 0, 0.396);
+  margin: 5px;
+  border-radius: 10px;
+}
+.btne:hover {
+  background: #a8a9b3;
+}
+
+h4 {
+  text-align: center;
+
+}
+
+.btna {
+  border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    padding: 5px;
+    margin: 10px;
+    background: none;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #6900ff;
+}
+
+.purple {
+  color: #6900ff;
+}
+
+
+.container-details {
+  height: 12rem;
+  width: 100%;
+}
+
+.history-chart {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.name-symbol {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+
+.SvgjsSvg2086 {
+  height: 25rem;
+}
+.chart-button {
+  display: flex;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.bta {
+  color: #fff;
+    /* border-right: 1px solid #fff; */
+    border-radius: 0;
+    border: none;
+    /* padding: 5px; */
+    cursor: pointer;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    background: none;
+    width: 3rem;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.no::before {
+  
+  content: "|";
+  font-size: 1.4rem;
+  padding-bottom: 4px;
+}
+.no::before:hover {   
+  color: #Fff;
+}
+
+.mounth {
+  border:none
+}
+.bta:hover {
+  transition: all 0.6s;
+  color: #6900ff;
+}
+
+li {
+  padding-right: 27px;
+}
+
+
+/* .apexcharts-xaxis-texts-g .apexcharts-xaxis-label:nth-child(n+2):nth-last-child(n+3) {
+  display: none;
+
+} */
+.apexcharts-xaxis-texts-g .apexcharts-xaxis-label:nth-child(n) {
+  display: none;
+} 
+.apexcharts-legend-series:nth-child(1) .apexcharts-legend-marker {
+  background: #FFF;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  .info {
+    display: flex;
+    /* display: grid; */
+    margin: 0 auto;
+    width: 27rem;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-around;
+    align-items: center;
+}
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .heading {
+    width: 29rem;
+  }
+  .heading > p {
+    font-size: 0.7rem;
+  }
+  .coin-row > p {
+    font-size: 0.7rem;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .coin-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #c4c7d363; */
+    box-shadow: 0px 0px 12px #c4c7d3;
+    border-radius: 8px;
+    margin: 2rem 0rem;
+    padding: 0.7rem 3px;
+    font-weight: 700;
+
+  }
+  .btn-coin {
+    display: flex;
+    justify-content: center;
+}
+ .coin-price {
+  width: 75%;
+ }
+ .info {
+  width: 21rem;
+ }
+ .rank {
+  display: flex;
+  justify-content: space-around;
+
+ }
+ .info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+/* .chart-button {
+  display: flex;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  justify-content: flex-end;
+} */
+/* .name-symbol {
+  display: flex;
+  width: 97%;
+  flex-direction: column;
+  align-items: center;
+} */
+.info .coin-heading {
+  flex-direction: row;
+}
+.btn-coin {
+  display: flex;
+  justify-content: center;
+}
+  .heading {
+    width: 18rem;
+  }
+  .heading > p {
+    font-size: 0.7rem;
+  }
+  .coin-row > p {
+    font-size: 0.7rem;
+  }
+  .img-symbol > img {
+    height: 20px;
+    margin-right: 4px;
+    width: auto;
+}
+.img-symbol > p{
+  font-size: 0.8rem;
+}
+
+
+.coin-row > .rank {
+  display: none;
+}
+.heading-coin {
+  display: flex;
+  margin: 0 auto;
+  width: 21rem;
+  justify-content: space-around;
+}
+.row > div {
+  flex: 0 0 auto;
+  width: 100%;
+}
+h3 {
+  font-size: calc(1.1rem + .6vw)
+}
+h6 {
+  font-size: 11px;
+}
+h4 {
+  font-size: 1rem;
+}
+
+
+}
+
+
+
+
+
